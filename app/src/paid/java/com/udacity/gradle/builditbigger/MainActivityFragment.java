@@ -39,7 +39,7 @@ public class MainActivityFragment extends Fragment {
                // Java Library
                 //  Toast.makeText(getActivity(),joker.getJoke() , Toast.LENGTH_SHORT).show();
                 // Android Library
-                startActivity(new Intent(getActivity(), LibActivity.class).putExtra("joke",joker.getJoke()));
+                new EndpointsAsyncTask(getContext()).execute();
             }
         });
         return root;
