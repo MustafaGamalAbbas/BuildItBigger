@@ -11,6 +11,6 @@ import org.junit.Test;
     @Test
     public void testResponse() {
         String joke = String.valueOf(new EndpointsAsyncTask(null).doInBackground());
-        Assert.assertNotNull (joke.isEmpty());
+        Assert.assertNotNull(joke);
      }
 }

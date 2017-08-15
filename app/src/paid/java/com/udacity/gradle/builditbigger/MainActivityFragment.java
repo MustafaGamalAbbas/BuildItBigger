@@ -9,8 +9,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.JokesClass;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 
 import static com.udacity.gradle.builditbigger.R.id.bt_tellJoke;
 
